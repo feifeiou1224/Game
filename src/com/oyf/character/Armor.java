@@ -16,6 +16,10 @@ public class Armor {
     public Armor() {
     }
 
+    public Armor(String name){
+        this.name = name;
+    }
+
     public Armor(String name, int defense, int speed, int price) {
         this.name = name;
         this.defense = defense;
